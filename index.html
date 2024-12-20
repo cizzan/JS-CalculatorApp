@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+
+    <header>
+        <button id="theme-switch" data-value="">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="undefined">
+                <path
+                    d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                fill="undefined">
+                <path
+                    d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z" />
+            </svg>
+        </button>
+    </header>
+    <main>
+        <div class="container">
+            <input type="text" class="display" value="" placeholder="0">
+            <div class="buttons">
+                <button class="operator" data-value="C">C</button>
+                <button class="operator" data-value="DEL">⌫</button>
+                <button class="operator" data-value="%">%</button>
+                <button class="operator" data-value="÷">÷</button>
+
+                <button data-value="7">7</button>
+                <button data-value="8">8</button>
+                <button data-value="9">9</button>
+                <button class="operator" data-value="×">×</button>
+
+                <button data-value="4">4</button>
+                <button data-value="5">5</button>
+                <button data-value="6">6</button>
+                <button class="operator" data-value="-">-</button>
+
+                <button data-value="1">1</button>
+                <button data-value="2">2</button>
+                <button data-value="3">3</button>
+                <button class="operator" data-value="+">+</button>
+
+                <button data-value="0">0</button>
+                <button data-value="00">00</button>
+                <button data-value=".">.</button>
+                <button class="operator" data-value="=">=</button>
+            </div>
+            <script src="app.js" defer></script>
+            <!-- <table>
+            <tr>
+                <td colspan="4"><input type="=text" id="result" class="screen" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="AC" onclick="clearScreen" class="clear" />
+                </td>
+                <td>
+                    <input type="button" value="DEL" onclick="deleteChar" class="delete" />
+                </td>
+                <td>
+                    <input type="button" value="%" onclick="display('%')" class="percent" />
+                </td>
+                <td>
+                    <input type="button" value="/" onclick="display('/')" class="operator" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="7" onclick="display('7')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="8" onclick="display('8')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="9" onclick="display('9')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="*" onclick="display('*')" class="operator" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="4" onclick="display('4')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="5" onclick="display('5')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="6" onclick="display('6')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="-" onclick="display('-')" class="operator" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="1" onclick="display('1')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="2" onclick="display('2')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="3" onclick="display('3')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="+" onclick="display('+')" class="operator" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="0" onclick="display('0')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="00" onclick="display('00')" class="number" />
+                </td>
+                <td>
+                    <input type="button" value="." onclick="display('.')" class="decimal" />
+                </td>
+                <td>
+                    <input type="button" value="=" onclick="display('=')" class="equal" />
+                </td>
+            </tr>
+        </table> -->
+        </div>
+        <footer>
+            <p>Calculator Project by <a href="https://shrijan.com.np" target="_blank">Shrijan Shrestha</a></p>
+        </footer>
+    </main>
+    
+</body>
+
+</html>
