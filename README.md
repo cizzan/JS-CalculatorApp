@@ -52,7 +52,7 @@ The `app.js` file contains the logic for performing arithmetic operations, clear
 4. Click the `=` button to see the result.
 5. Use the `C` button to clear the input and start again.
 6. The calculator also works perfectly using the keyboard keys.
-7. For Keyboard, use numbers for entering numbres, (`+`, `-`, `*`, `/` and `%`) for operators and `=` button to see the result.
+7. For Keyboard, use numbers for entering numbers, (`+`, `-`, `*`, `/` and `%`) for operators and `=` button to see the result.
 8. Press Esc button to clear the input.
 9. To delete you can either use `⌫Backspace` or `delete` keys.
 
